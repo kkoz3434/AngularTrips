@@ -1,0 +1,83 @@
+[
+    {
+      "name": "Trip to Poland",
+      "aim": "Poland",
+      "startTrip": "22:11:2020",
+      "endTrip": "25:11:2020",
+      "price": 900,
+      "maxSpace": 4,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus mi nunc, sit amet cursus justo consequat sit amet. Vestibulum pretium erat euismod tortor scelerisque, eu fringilla nunc luctus. Donec gravida ultrices iaculis. Nam tortor arcu, lacinia ut consectetur nec, interdum in enim. Aliquam sed consequat arcu, nec auctor nisl.",
+
+      "imgURL": "https://source.unsplash.com/600x600/?poland"
+    },
+    {
+      "name": "Trip to France",
+      "aim": "France",
+      "startTrip": "20:11:2020",
+      "endTrip": "23:11:2020",
+      "price": 2000,
+      "maxSpace": 22,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus mi nunc, sit amet cursus justo consequat sit amet. Vestibulum pretium erat euismod tortor scelerisque, eu fringilla nunc luctus. Donec gravida ultrices iaculis. Nam tortor arcu, lacinia ut consectetur nec, interdum in enim. Aliquam sed consequat arcu, nec auctor nisl.",
+      "imgURL": "https://source.unsplash.com/600x600/?france"
+    },
+    {
+      "name": "Trip to Italy",
+      "aim": "Italy",
+      "startTrip": "15:11:2020",
+      "endTrip": "18:11:2020",
+      "price": 1230,
+      "maxSpace": 13,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus mi nunc, sit amet cursus justo consequat sit amet. Vestibulum pretium erat euismod tortor scelerisque, eu fringilla nunc luctus. Donec gravida ultrices iaculis. Nam tortor arcu, lacinia ut consectetur nec, interdum in enim. Aliquam sed consequat arcu, nec auctor nisl.",
+      "imgURL": "https://source.unsplash.com/600x600/?italy"
+    },
+    {
+      "name": "Trip to Hungary",
+      "aim": "Hungary",
+      "startTrip": "11:11:2020",
+      "endTrip": "14:11:2020",
+      "price": 1600,
+      "maxSpace": 54,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus mi nunc, sit amet cursus justo consequat sit amet. Vestibulum pretium erat euismod tortor scelerisque, eu fringilla nunc luctus. Donec gravida ultrices iaculis. Nam tortor arcu, lacinia ut consectetur nec, interdum in enim. Aliquam sed consequat arcu, nec auctor nisl.",
+      "imgURL": "https://source.unsplash.com/600x600/?hungary"
+    },
+    {
+      "name": "Trip to Japan",
+      "aim": "Japan",
+      "startTrip": "07:11:2020",
+      "endTrip": "10:11:2020",
+      "price": 1900,
+      "maxSpace": 21,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus mi nunc, sit amet cursus justo consequat sit amet. Vestibulum pretium erat euismod tortor scelerisque, eu fringilla nunc luctus. Donec gravida ultrices iaculis. Nam tortor arcu, lacinia ut consectetur nec, interdum in enim. Aliquam sed consequat arcu, nec auctor nisl.",
+      "imgURL": "https://source.unsplash.com/600x600/?japan"
+    },
+    {
+      "name": "Trip to USA",
+      "aim": "USA",
+      "startTrip": "06:11:2020",
+      "endTrip": "09:11:2020",
+      "price": 1700,
+      "maxSpace": 5,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus mi nunc, sit amet cursus justo consequat sit amet. Vestibulum pretium erat euismod tortor scelerisque, eu fringilla nunc luctus. Donec gravida ultrices iaculis. Nam tortor arcu, lacinia ut consectetur nec, interdum in enim. Aliquam sed consequat arcu, nec auctor nisl.",
+      "imgURL": "https://source.unsplash.com/600x600/?usa"
+    },
+    {
+      "name": "Trip to Great Britain",
+      "aim": "Great Britain",
+      "startTrip": "02:11:2020",
+      "endTrip": "05:11:2020",
+      "price": 1660,
+      "maxSpace": 13,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus mi nunc, sit amet cursus justo consequat sit amet. Vestibulum pretium erat euismod tortor scelerisque, eu fringilla nunc luctus. Donec gravida ultrices iaculis. Nam tortor arcu, lacinia ut consectetur nec, interdum in enim. Aliquam sed consequat arcu, nec auctor nisl.",
+      "imgURL": "https://source.unsplash.com/600x600/?england"
+    },
+    {
+      "name": "Trip to Russia",
+      "aim": "Russia",
+      "startTrip": "01:11:2020",
+      "endTrip": "04:11:2020",
+      "price": 1990,
+      "maxSpace": 7,
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus mi nunc, sit amet cursus justo consequat sit amet. Vestibulum pretium erat euismod tortor scelerisque, eu fringilla nunc luctus. Donec gravida ultrices iaculis. Nam tortor arcu, lacinia ut consectetur nec, interdum in enim. Aliquam sed consequat arcu, nec auctor nisl.",
+      "imgURL": "https://source.unsplash.com/600x600/?russia"
+    }
+]

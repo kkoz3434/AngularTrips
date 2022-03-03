@@ -1,0 +1,17 @@
+.mainDiv{
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  margin-left: 30%;
+}
+.marginDiv{
+  margin-bottom: 100px;
+}
+.divSum{
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 3;
+  font-family: sans-serif;
+  font-weight: lighter;
+  font-size: 32px;
+}

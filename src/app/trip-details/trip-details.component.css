@@ -1,0 +1,54 @@
+.divTrip {
+  width: 50%;
+  height: 100%;
+  grid-auto-flow: dense;
+  font-size: 16px;
+  text-align: left;
+  background-color: antiquewhite;
+  padding: 10px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.mainInfo{
+  font-size: 24px;
+  font-weight: lighter;
+  font-family: sans-serif;
+  height: 50px;
+}
+.tripPic{
+  margin: 40px;
+  clip-path: circle(50.0% at 50% 50%);
+  shape-outside:circle();
+  max-height: 50%;
+  max-width: 400px;
+  float: left;
+  overflow: hidden;
+}
+#deleteTrip{
+  background-color: #cd5049;
+  border:1px solid #cd5049;
+  font-size: 24px;
+}
+.myButton {
+  background-color:#44c767;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:24px;
+  padding:0px 14px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+  background-color:#5cbf2a;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+.marginDiv{
+  margin-bottom: 100px;
+}

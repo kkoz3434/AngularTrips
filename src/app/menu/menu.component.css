@@ -1,0 +1,25 @@
+div{
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  height: 36px;
+  width: 100%;
+  text-align: left;
+  background-color: #c0494e;
+  padding: 20px;
+}
+a{
+  margin: 20px;
+  margin-top: 8px;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: white;
+
+  text-decoration: none;
+}
+a:hover{
+  font-size: 32px;
+  margin-top: 0;
+}

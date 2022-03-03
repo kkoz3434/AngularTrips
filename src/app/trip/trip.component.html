@@ -1,0 +1,7 @@
+<div class="divTrip" [ngStyle]="borderStyle">
+
+  <h3 class="mainInfo">{{trip.name}}, wyjazd: {{trip.startTrip}} {{trip.price}}zł</h3>
+
+  <a class="myButton" routerLink="/tripDetails/{{this.trip.key}}" id="details" style="font-size: 36px"> Details</a>
+
+</div>

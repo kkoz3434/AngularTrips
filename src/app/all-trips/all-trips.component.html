@@ -1,0 +1,12 @@
+<app-menu></app-menu>
+<div class="divSum" [ngStyle]="{'background-color': (sumOfReserved()>9) ? '#44c767' : '#bf3f53'}">
+  Zarezerwowano: {{sumOfReserved()}} miejsc.
+</div>
+<div class="marginDiv">
+
+</div>
+<div class="mainDiv">
+  <ul *ngFor="let item of tripList">
+    <app-trip [trip]="item" [borderStyle]="getBorderColor(item)"></app-trip>
+  </ul>
+</div>

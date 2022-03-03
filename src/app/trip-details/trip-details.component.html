@@ -1,0 +1,30 @@
+<app-menu></app-menu>
+<div class="marginDiv">
+
+</div>
+<div class="divTrip" *ngFor="let trip of this.trip" >
+  <div>
+    <img src="{{trip.imgURL}}" class="tripPic">
+  </div>
+  <div>
+    <h3>Oceń wycieczkę: {{getRate() | number : '1.0-2'}}</h3>
+    <a class="myButton" style="color: honeydew; background-color: #cd5c3a; border: none" (click)="updateRate(1)" > 1 </a>
+    <a class="myButton" style="color: honeydew; background-color: #ff9a25; border: none" (click)="updateRate(2)"> 2 </a>
+    <a class="myButton" style="color: honeydew; background-color: #f6e902; border: none" (click)="updateRate(3)" > 3 </a>
+    <a class="myButton" style="color: honeydew; background-color: #9eff54; border: none" (click)="updateRate(4)" > 4 </a>
+    <a class="myButton" style="color: honeydew; background-color: #06b422; border: none" (click)="updateRate(5)" > 5 </a>
+  </div>
+
+  <h3><span class="mainInfo">Nazwa :</span>{{trip.name}}</h3>
+  <h3><span class="mainInfo">Kraj:</span> {{trip.aim}}</h3>
+  <h3><span class="mainInfo">Wyjazd: </span>{{trip.name}}</h3>
+  <h3><span class="mainInfo">Powrót: </span>{{trip.price}} zł</h3>
+  <h3><span class="mainInfo">Wolne miejsca:</span> <span>{{this.trip.vacation}}</span></h3>
+
+
+  <h3 style="font-weight: lighter; "><span class="mainInfo">Opis:<br> </span>{{trip.description}}</h3>
+
+  <a class="myButton" routerLink="/mainPage" id="details" style="font-size: 36px"> Powrót</a>
+</div>
+
+

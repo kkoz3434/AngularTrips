@@ -1,0 +1,18 @@
+<app-menu></app-menu>
+<div class="marginDiv">
+
+</div>
+<div style="text-align: left; width: 50%; margin-bottom: 100px; margin-left: 50px; font-size: 40px; font-family: sans-serif; font-weight: lighter">
+
+<form [formGroup]="tripForm">
+  <label>Trip name: </label><input type="text" style="font-size: 40px; margin-left: 40px"
+                                   formControlName="name" [ngClass]="{ 'is-invalid': submitted && f.name.errors}"><br>
+  <label>Country: </label><input type="text" style="font-size: 40px; margin-left: 80px" formControlName="aim"><br>
+  <label>StartTrip: </label><input type="date" style="font-size: 40px; margin-left: 68px" formControlName="startTrip"><br>
+  <label>EndTrip: </label><input type="date" style="font-size: 40px; margin-left: 80px" formControlName="endTrip"><br>
+  <label>Price: </label><input type="number" style="font-size: 40px; margin-left: 128px" formControlName="price"><br>
+  <label>Vacation left: </label><input type="number" style="font-size: 40px; margin-left: 2px" formControlName="maxSpace"><br>
+  <a class="myButton" id="submit" (click)="onSubmit()" > Wyślij</a>
+</form>
+  <p [hidden]="!submitted">Dodano wycieczkę!</p>
+</div>
